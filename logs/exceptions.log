@@ -1,0 +1,364 @@
+2024-10-12 18:30:50.576 [[31MERROR[39M]: 	[31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)[39m
+[31m    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:30:5[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)[39m
+[31m    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)[39m
+[31m    at async loadESM (node:internal/process/esm_loader:28:7)[39m
+[31m    at async handleMainPromise (node:internal/modules/run_main:113:12)[39m
+	{
+  "error": {},
+  "stack": "TypeError: app.use() requires a middleware function\n    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)\n    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:30:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "exception": true,
+  "date": "Sat Oct 12 2024 18:30:50 GMT-0400 (GMT-04:00)",
+  "process": {
+    "pid": 58368,
+    "uid": 501,
+    "gid": 20,
+    "cwd": "/Users/diegoherreragre/DHGCode/backend3final",
+    "execPath": "/usr/local/bin/node",
+    "version": "v20.11.0",
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/diegoherreragre/DHGCode/backend3final/src/app.js"
+    ],
+    "memoryUsage": {
+      "rss": 119717888,
+      "heapTotal": 68288512,
+      "heapUsed": 39035288,
+      "external": 21585887,
+      "arrayBuffers": 19359311
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.77392578125,
+      2.85107421875,
+      4.2890625
+    ],
+    "uptime": 160892
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js",
+      "function": "Function.use",
+      "line": 217,
+      "method": "use",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js",
+      "function": null,
+      "line": 30,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 218,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 329,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 113,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-10-12 18:31:33.780 [[31MERROR[39M]: 	[31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)[39m
+[31m    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:30:5[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)[39m
+[31m    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)[39m
+[31m    at async loadESM (node:internal/process/esm_loader:28:7)[39m
+[31m    at async handleMainPromise (node:internal/modules/run_main:113:12)[39m
+	{
+  "error": {},
+  "stack": "TypeError: app.use() requires a middleware function\n    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)\n    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:30:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "exception": true,
+  "date": "Sat Oct 12 2024 18:31:33 GMT-0400 (GMT-04:00)",
+  "process": {
+    "pid": 58427,
+    "uid": 501,
+    "gid": 20,
+    "cwd": "/Users/diegoherreragre/DHGCode/backend3final",
+    "execPath": "/usr/local/bin/node",
+    "version": "v20.11.0",
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/diegoherreragre/DHGCode/backend3final/src/app.js"
+    ],
+    "memoryUsage": {
+      "rss": 116047872,
+      "heapTotal": 68026368,
+      "heapUsed": 39112672,
+      "external": 21530277,
+      "arrayBuffers": 19304883
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.94775390625,
+      2.8837890625,
+      4.23388671875
+    ],
+    "uptime": 160935
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js",
+      "function": "Function.use",
+      "line": 217,
+      "method": "use",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js",
+      "function": null,
+      "line": 30,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 218,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 329,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 113,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-10-12 18:32:25.469 [[31MERROR[39M]: 	[31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)[39m
+[31m    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:30:5[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)[39m
+[31m    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)[39m
+[31m    at async loadESM (node:internal/process/esm_loader:28:7)[39m
+[31m    at async handleMainPromise (node:internal/modules/run_main:113:12)[39m
+	{
+  "error": {},
+  "stack": "TypeError: app.use() requires a middleware function\n    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)\n    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:30:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "exception": true,
+  "date": "Sat Oct 12 2024 18:32:25 GMT-0400 (GMT-04:00)",
+  "process": {
+    "pid": 58446,
+    "uid": 501,
+    "gid": 20,
+    "cwd": "/Users/diegoherreragre/DHGCode/backend3final",
+    "execPath": "/usr/local/bin/node",
+    "version": "v20.11.0",
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/diegoherreragre/DHGCode/backend3final/src/app.js"
+    ],
+    "memoryUsage": {
+      "rss": 114900992,
+      "heapTotal": 67764224,
+      "heapUsed": 38905880,
+      "external": 21850455,
+      "arrayBuffers": 19442906
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.7529296875,
+      2.8271484375,
+      4.126953125
+    ],
+    "uptime": 160987
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js",
+      "function": "Function.use",
+      "line": 217,
+      "method": "use",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js",
+      "function": null,
+      "line": 30,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 218,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 329,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 113,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2024-10-12 18:33:38.147 [[31MERROR[39M]: 	[31muncaughtException: app.use() requires a middleware function[39m
+[31mTypeError: app.use() requires a middleware function[39m
+[31m    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)[39m
+[31m    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:12:5[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)[39m
+[31m    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)[39m
+[31m    at async loadESM (node:internal/process/esm_loader:28:7)[39m
+[31m    at async handleMainPromise (node:internal/modules/run_main:113:12)[39m
+	{
+  "error": {},
+  "stack": "TypeError: app.use() requires a middleware function\n    at Function.use (/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js:217:11)\n    at file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js:12:5\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:28:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+  "exception": true,
+  "date": "Sat Oct 12 2024 18:33:38 GMT-0400 (GMT-04:00)",
+  "process": {
+    "pid": 58484,
+    "uid": 501,
+    "gid": 20,
+    "cwd": "/Users/diegoherreragre/DHGCode/backend3final",
+    "execPath": "/usr/local/bin/node",
+    "version": "v20.11.0",
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/diegoherreragre/DHGCode/backend3final/src/app.js"
+    ],
+    "memoryUsage": {
+      "rss": 114163712,
+      "heapTotal": 67239936,
+      "heapUsed": 38451632,
+      "external": 21788781,
+      "arrayBuffers": 19381232
+    }
+  },
+  "os": {
+    "loadavg": [
+      2.31103515625,
+      2.65625,
+      3.95703125
+    ],
+    "uptime": 161060
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "/Users/diegoherreragre/DHGCode/backend3final/node_modules/express/lib/application.js",
+      "function": "Function.use",
+      "line": 217,
+      "method": "use",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "file:///Users/diegoherreragre/DHGCode/backend3final/src/app.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 218,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async ModuleLoader.import",
+      "line": 329,
+      "method": "import",
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "node:internal/process/esm_loader",
+      "function": "async loadESM",
+      "line": 28,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/run_main",
+      "function": "async handleMainPromise",
+      "line": 113,
+      "method": null,
+      "native": false
+    }
+  ]
+}

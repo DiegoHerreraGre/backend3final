@@ -30,7 +30,7 @@ export class UserControllers {
 
 			res.send({ status: 'success', payload: user })
 		} catch (error) {
-			console.log(`Error: ${error.message}`)
+			console.error(`Error: ${error.message}`)
 			next(error)
 		}
 	}
